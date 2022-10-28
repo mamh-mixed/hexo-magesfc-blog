@@ -1,19 +1,19 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+## Docs: https://magesfc.github.io/
+## Source: https://magesfc.github.io/
 
 # Site
-title: Hexo
+title: 马哥私房菜
 subtitle: ''
-description: ''
+description: ' 这里是 马哥 的个人博客 '
 keywords:
-author: John Doe
+author: mage
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://magesfc.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
