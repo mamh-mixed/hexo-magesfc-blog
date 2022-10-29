@@ -3,24 +3,33 @@
 # --------------------------------------
 
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  首頁: / || fas fa-home
+  目錄||fas fa-compass:
+    歸檔: /archives/ || fas fa-archive
+    標籤: /tags/ || fas fa-tags
+    分類: /categories/ || fas fa-folder-open
+  文檔||fas fa-book:
+    🚀 快速開始: /posts/21cfbf15/
+    📑 主題頁面: /posts/dc584b87/
+    🛠 主題配置-1: /posts/4aa8abbe/
+    ⚔️ 主題配置-2: /posts/ceeb73f/
+    ❓ 主題問答: /posts/98d20436/
+    ⚡️ 進階教程: /posts/4073eda/
+    ✨ 更新日誌: /posts/198a4240/
+  娛樂||fa fa-heartbeat:
+    # - 音樂 || /music/ || fas fa-music
+    圖庫: /Gallery/ || fas fa-images
+  留言板: /messageboard/ || fas fa-comment-dots
+  示例: /link/ || fas fa-thumbs-up
 
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: light # darker / pale night / light / ocean / mac / mac light /false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 400 # unit: px
 code_word_wrap: false
 
 # copy settings
@@ -28,15 +37,14 @@ code_word_wrap: false
 copy:
   enable: true
   copyright:
-    enable: false
-    limit_count: 50
+    enable: true
+    limit_count: 150
 
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/mamh2021 || Github
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -76,28 +84,28 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: http://www.blackshark.com/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/avatar.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_04.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_05.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_06.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_01.jpg
 
 # The banner image of tag page
 # format:
@@ -106,7 +114,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_07.jpg
 
 # The banner image of category page
 # format:
@@ -132,7 +140,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -154,9 +162,9 @@ post_meta:
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
   enable: false
-  post_wordcount: true
+  post_wordcount: false
   min2read: true
-  total_wordcount: true
+  total_wordcount: false
 
 # Display the article introduction on homepage
 # 1: description
@@ -167,14 +175,6 @@ index_post_content:
   method: 3
   length: 500 # if you set method to 2 or 3, the length need to config
 
-# anchor
-anchor:
-  button:
-    enable: false
-    always_show: false
-    icon: # the unicode value of Font Awesome icon, such as '\3423'
-  auto_update: false # when you scroll in post, the URL will update according to header id.
-
 # Post
 # --------------------------------------
 
@@ -183,7 +183,7 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   style_simple: false # for post
 
 post_copyright:
@@ -195,14 +195,17 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: https://fastly.jsdelivr.net/gh/jerryc127/CDN/Photo/wechat.jpg
+      link:
+      text: 微信
+    - img: https://fastly.jsdelivr.net/gh/jerryc127/CDN/Photo/alipay.jpg
+      link:
+      text: 支付寶
+    - img: https://fastly.jsdelivr.net/gh/jerryc127/CDN/Photo/alipayhk.jpg
+      link:
+      text: 支付寶香港
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -227,6 +230,15 @@ photofigcaption: false
 # 2: The 'next post' will link to new post
 # false: disable pagination
 post_pagination: 1
+
+# anchor
+
+anchor:
+  button:
+    enable: false
+    always_show: false
+    icon: # the unicode value of Font Awesome icon, such as '\3423'
+  auto_update: false # when you scroll in post, the URL will update according to header id.
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -337,7 +349,7 @@ facebook_comments:
   user_id: # optional
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -418,14 +430,14 @@ crisp:
 messenger:
   enable: false
   pageID:
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Footer Settings
 # --------------------------------------
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text:
   copyright: true # Copyright of theme and framework
 
@@ -521,7 +533,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -535,12 +547,12 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
-  mobile: false
+  click_to_change: true
+  mobile: true
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
@@ -569,7 +581,7 @@ activate_power_mode:
 fireworks:
   enable: false
   zIndex: 9999 # -1 or 9999
-  mobile: false
+  mobile: true
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
@@ -580,9 +592,9 @@ click_heart:
 ClickShowText:
   enable: false
   text:
-    # - I
-    # - LOVE
-    # - YOU
+    - I
+    - LOVE
+    - YOU
   fontSize: 15px
   random: false
   mobile: false
@@ -593,18 +605,18 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
-  title-prefix-icon: # '\f0c1'
-  title-prefix-icon-color: # '#F47466'
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -620,7 +632,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度參數)
@@ -635,9 +647,11 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 今日事&#44;今日畢
+    - Never put off till tomorrow what you can do today
 
 # Loading Animation (加載動畫)
 preloader:
@@ -668,8 +682,8 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: 主題 GitHub主題 GitHub
+      link: https://github.com/mamh
   card_announcement:
     enable: true
     content: This is my Blog
@@ -680,18 +694,18 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
-    limit: 8 # if set 0 will show all
-    expand: none # none/true/false
+    limit: 0 # if set 0 will show all
+    expand: false # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
     type: monthly # yearly or monthly
-    format: MMMM YYYY # eg: YYYY年MM月
+    format: YYYY年MM月 # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
     sort_order: # Don't modify the setting unless you know how it works
@@ -711,15 +725,15 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2019/11/13 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
   enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
-  storage: 10 # unit: mins, save data to localStorage
+  storage: 5 # unit: mins, save data to localStorage
   avatar: true
 
 # Bottom right button (右下角按鈕)
@@ -729,9 +743,9 @@ newest_comments:
 translate:
   enable: false
   # The text of a button
-  default: 繁
+  default: 簡
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 2
+  defaultEncoding: 1
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
@@ -751,15 +765,15 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
 # Don't repeat 不要重複
 rightside_item_order:
-  enable: false
-  hide: # readmode,translate,darkmode,hideAside
-  show: # toc,chat,comment
+  enable: true
+  hide: readmode,darkmode,hideAside
+  show: toc,translate,chat,comment
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
@@ -779,7 +793,7 @@ fancybox: true
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme:
     light: default
@@ -834,14 +848,14 @@ instantpage: false
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
   enable: false
-  field: site # site/post
+  field: post # site/post
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
-  placeholder:
+  placeholder: /img/loading.gif
   blur: false
 
 # PWA
@@ -876,7 +890,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - '<style type="text/css">.card-announcement .social-button{margin:.6rem 0 0 0;text-align:center}.card-announcement .social-button a{display:block;background-color:var(--btn-bg);color:var(--btn-color);text-align:center;line-height:2.4;margin:4px 0}.card-announcement .social-button a:hover{background-color:var(--btn-hover-color)}</style>'
   bottom:
     # - <script src="xxxx"></script>
 
@@ -894,7 +908,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
-  # Add version number to CDN, true or false  
+  # Add version number to CDN, true or false
   version: false
 
   # Custom format
