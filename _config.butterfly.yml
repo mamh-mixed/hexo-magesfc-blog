@@ -677,8 +677,8 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 主題 GitHub主題 GitHub
-      link: https://github.com/mamh
+      text: GitHub
+      link: https://github.com/mamh2021
   card_announcement:
     enable: true
     content: This is my Blog
