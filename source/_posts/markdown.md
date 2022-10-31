@@ -3,7 +3,7 @@ title: Markdown Style test
 tags:
 categories:
 cover: 'https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_09.jpg'
-abbrlink: '89757140'
+abbrlink: 'd6ec6cb6d2aad94e5d1539a45b19385cdd3d6587'
 date: 2018-07-24 23:31:06
 mathjax: true
 keywords: 'hexo,butterfly,主題,doc,教程,文檔,Markdown'
