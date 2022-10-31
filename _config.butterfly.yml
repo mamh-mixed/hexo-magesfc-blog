@@ -197,15 +197,13 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://fastly.jsdelivr.net/gh/jerryc127/CDN/Photo/wechat.jpg
+    - img:
       link:
       text: 微信
-    - img: https://fastly.jsdelivr.net/gh/jerryc127/CDN/Photo/alipay.jpg
+    - img:
       link:
       text: 支付寶
-    - img: https://fastly.jsdelivr.net/gh/jerryc127/CDN/Photo/alipayhk.jpg
-      link:
-      text: 支付寶香港
+
 
 # Post edit
 # Easily browse and edit blog source code online.
