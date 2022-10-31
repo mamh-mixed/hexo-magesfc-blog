@@ -9,14 +9,14 @@ menu:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
   精选文档||fas fa-book:
-    🚀 快速開始: /posts/21cfbf15/
-    📑 主題頁面: /posts/dc584b87/
-    🛠 主題配置-1: /posts/4aa8abbe/
-    ⚔️ 主題配置-2: /posts/ceeb73f/
-    ❓ 主題問答: /posts/98d20436/
-    ⚡️ 進階教程: /posts/4073eda/
-    ✨ 更新日誌: /posts/198a4240/
-  其他示例: /link/ || fas fa-thumbs-up
+    🚀 快速开始: https://butterfly.js.org/posts/21cfbf15/
+    📑 主题页面: https://butterfly.js.org/posts/dc584b87/
+    🛠 主题配置-1: https://butterfly.js.org/posts/4aa8abbe/
+    🛠 主题配置-2: https://butterfly.js.org/posts/ceeb73f/
+    ❓ 主题问答: https://butterfly.js.org/posts/98d20436/
+    ⚡️ 进阶教程: https://butterfly.js.org/posts/4073eda/
+    ✨ 更新日志: https://butterfly.js.org/posts/198a4240/
+  其他示例: https://butterfly.js.org/link/ || fas fa-thumbs-up
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
