@@ -81,7 +81,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: http://www.blackshark.com/favicon.ico
+favicon: https://www.zeekrlife.com/favicon.png
 
 # Avatar (頭像)
 avatar:
@@ -92,17 +92,17 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_04.jpg
+index_img: https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/home/zeekr001fr.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_05.jpg
+default_top_img: https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/image/zeekrCoordinates/jkkj.png
 
 # The banner image of archive page
-archive_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_06.jpg
+archive_img: https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/home/zeekrx.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_01.jpg
+tag_img: https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/home/zeekr009.png
 
 # The banner image of tag page
 # format:
@@ -111,7 +111,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://office-1256119282.file.myqcloud.com/2022/official-web/cdn/20220301/pc_bg_07.jpg
+category_img: https://zeekrlife-oss.zeekrlife.com/frontend/zeekrlife-official-pc/home/zeekr001.png
 
 # The banner image of category page
 # format:
@@ -139,7 +139,7 @@ error_img:
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://www.zeekrlife.com/404
 
 post_meta:
   page: # Home Page
